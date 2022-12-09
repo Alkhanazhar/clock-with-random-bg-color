@@ -1,0 +1,32 @@
+#container{
+    width: 90%;
+    margin-inline:auto;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    height: 100vh;
+    }
+    h1{
+        font-size: 8rem;
+        font-family: sans-serif;
+        color: black;
+        
+    }
+    #center{
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+        margin-top:250px;
+    }
+    body{
+        color: azure;
+        /* background: linear-gradient(blue,black); */
+    }
+    
+    @media screen and (max-width:600px) {
+        h1{
+            font-size: 3.5rem;
+            
+        }
+    }
